@@ -1,0 +1,19 @@
+comandos git bash
+
+listar directorio: ls -l
+limpiar: clear
+donde estoy : pwd
+cambiar ruta: cd G:
+volver directorio : cd ..
+mostrar ocultos: ls -al
+crear archivo : touch nombrearchivo.txt
+mostrar archivo: cat nombrearchivo.txt
+listar comandos ejecutados: history
+repetir comando : !numerocomando
+borrar archivo: rm nombrearchivo.txt
+
+inicializar git : git init
+estado de archivos git status
+
+
+
