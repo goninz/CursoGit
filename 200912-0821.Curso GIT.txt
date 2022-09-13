@@ -14,6 +14,10 @@ borrar archivo: rm nombrearchivo.txt
 
 inicializar git : git init
 estado de archivos git status
+trackear cambio: git add nombrearchivo.txt
+agregar todo : git add .
+commit git commit -m "mensaje que se quiere guardar"
+historial de cambios : git log
 
 
 

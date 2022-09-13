@@ -10,6 +10,10 @@ crear archivo : touch nombrearchivo.txt
 mostrar archivo: cat nombrearchivo.txt
 listar comandos ejecutados: history
 repetir comando : !numerocomando
+borrar archivo: rm nombrearchivo.txt
+
+inicializar git : git init
+estado de archivos git status
 
 
 
