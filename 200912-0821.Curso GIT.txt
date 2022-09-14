@@ -26,3 +26,4 @@ cambiar nombre de usuario para todos : git config --global user.name "jgonzalez"
 cambiar correo de usuario para todos : git config --global user.email "jonathan.gonzalez@hdi.cl"
 saber las ramas que tenemos : git branch
 mostrar lo que se modifico: git show
+ver diferencias entre commit : git diff codigocommit codigootrocommit
