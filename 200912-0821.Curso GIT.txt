@@ -17,9 +17,10 @@ estado de archivos git status
 trackear cambio: git add nombrearchivo.txt
 agregar todo : git add .
 commit: git commit -m "mensaje que se quiere guardar"
-commit con agregar todo git commit -m "mensaje que se quiere guardar" -a
+commit con agregar todo git commit -am "mensaje que se quiere guardar"
 
 historial de cambios : git log
+historial de cambios con detalle : git log --stat
 cambiar entre versiones : git checkout codiorama
 configurar git: git config
 ver configuracion : git config --list
