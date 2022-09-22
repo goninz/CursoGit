@@ -33,4 +33,5 @@ ver diferencias entre commit : git diff codigocommit codigootrocommit
 resetear hasta una versión anterior perdiendo todo: git reset codigocommit --hard
 resetear hasta una versión sin perder lo anterior: git reset codigocommit --soft
 
-crear rama: git branch 
+crear rama: git branch nombrerama
+

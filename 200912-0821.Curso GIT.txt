@@ -34,4 +34,5 @@ resetear hasta una versión anterior perdiendo todo: git reset codigocommit --ha
 resetear hasta una versión sin perder lo anterior: git reset codigocommit --soft
 
 crear rama: git branch nombrerama
+cambiar de rama: git checkout nombrerama
 
