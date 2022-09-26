@@ -37,6 +37,7 @@ crear rama: git branch nombrerama
 cambiar de rama: git checkout nombrerama
 traer los cambios a la rama: git merge nombrerama
 
-subir repositorio a la nube: git remote add origin URL
+crear repositorio a la nube: git remote add origin URL
+subir cambios a la nube: git push origin master
 
 
