@@ -45,7 +45,7 @@ traer los cambios: git pull origin master
 subir cambios a la nube: git push -u origin main
 forzar bajat : git pull origin master --allow-unrelated-histories
 
-cambiar url del repositorio: git remote set-url URL
+cambiar url del repositorio: git remote set-url origin URL
 traer cambios del repositorio remoto: git pull
 
 
