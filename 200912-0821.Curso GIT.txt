@@ -11,6 +11,7 @@ mostrar archivo: cat nombrearchivo.txt
 listar comandos ejecutados: history
 repetir comando : !numerocomando
 borrar archivo: rm nombrearchivo.txt
+crear llave publica ssh: ssh-keygen -t rsa -b 4096 -C "jonathangon@gmail.com"
 
 inicializar git : git init
 estado de archivos git status
@@ -44,6 +45,7 @@ forzar bajat : git pull origin master --allow-unrelated-histories
 
 cambiar url del repositorio: git remote set-url URL
 traer cambios del repositorio remoto: git pull
+
 
 
 
