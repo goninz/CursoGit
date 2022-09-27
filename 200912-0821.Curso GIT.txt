@@ -12,13 +12,15 @@ listar comandos ejecutados: history
 repetir comando : !numerocomando
 borrar archivo: rm nombrearchivo.txt
 crear llave publica ssh: ssh-keygen -t rsa -b 4096 -C "jonathangon@gmail.com"
-
+saber si la llave esta corriendo : eval $(ssh-agent -s)
+agregar llave : ssh-add ~/.ssh/id_rsa
 inicializar git : git init
 estado de archivos git status
 trackear cambio: git add nombrearchivo.txt
 agregar todo : git add .
 commit: git commit -m "mensaje que se quiere guardar"
 commit con agregar todo git commit -am "mensaje que se quiere guardar"
+
 
 historial de cambios : git log
 historial de cambios con detalle : git log --stat
@@ -40,7 +42,7 @@ traer los cambios a la rama: git merge nombrerama
 
 crear repositorio a la nube: git remote add origin URL
 traer los cambios: git pull origin master
-subir cambios a la nube: git push origin main
+subir cambios a la nube: git push -u origin main
 forzar bajat : git pull origin master --allow-unrelated-histories
 
 cambiar url del repositorio: git remote set-url URL
