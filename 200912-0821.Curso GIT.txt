@@ -50,6 +50,7 @@ traer cambios del repositorio remoto: git pull
 agregar tag: git tag -a v1.0 -m "Primera version" codigocommit
 ver tag : git tag
 que tag con que commit: git show-ref --tag
+enviar tag a github: git push origin --tags
 
 
 
