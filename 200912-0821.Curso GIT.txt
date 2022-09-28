@@ -52,3 +52,4 @@ ver tag : git tag
 que tag con que commit: git show-ref --tag
 enviar tag a github: git push origin --tags
 eliminar tag:git tag -d nombretag
+eliminar tag en github: git push origin :refs/tags/v1.0
