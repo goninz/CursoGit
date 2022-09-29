@@ -24,6 +24,7 @@ commit con agregar todo git commit -am "mensaje que se quiere guardar"
 
 historial de cambios : git log
 historial de cambios con detalle : git log --stat
+historial de cambios mas detallado: git log --graph
 cambiar entre versiones : git checkout codiorama
 configurar git: git config
 ver configuracion : git config --list
