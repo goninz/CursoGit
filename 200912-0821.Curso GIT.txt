@@ -37,3 +37,4 @@ crear rama: git branch nombrerama
 cambiar de rama: git checkout nombrerama
 traer los cambios a la rama: git merge nombrerama
 
+ver cambios de manera visual : gitk
