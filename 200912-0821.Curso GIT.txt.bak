@@ -40,6 +40,7 @@ crear rama: git branch nombrerama
 cambiar de rama: git checkout nombrerama
 traer los cambios a la rama: git merge nombrerama
 
+<<<<<<< HEAD
 crear repositorio a la nube: git remote add origin URL
 traer los cambios: git pull origin master
 subir cambios a la nube: git push -u origin main
@@ -52,3 +53,7 @@ ver tag : git tag
 que tag con que commit: git show-ref --tag
 enviar tag a github: git push origin --tags
 eliminar tag:git tag -d nombretag
+eliminar tag en github: git push origin :refs/tags/v1.0
+=======
+ver cambios de manera visual : gitk
+>>>>>>> primeraRama
