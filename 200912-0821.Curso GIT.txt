@@ -40,7 +40,7 @@ resetear hasta una versión sin perder lo anterior: git reset codigocommit --sof
 crear rama: git branch nombrerama
 cambiar de rama: git checkout nombrerama
 traer los cambios a la rama: git merge nombrerama
-
+eliminar rama : git branch -D nombrerama
 
 crear repositorio a la nube: git remote add origin URL
 traer los cambios: git pull origin master
@@ -53,8 +53,9 @@ agregar tag: git tag -a combretag -m "Primera version" codigocommit
 ver tag : git tag
 que tag con que commit: git show-ref --tag
 enviar tag a github: git push origin --tags
-eliminar tag:git tag -d nombretag
+eliminar tag:git tag -D nombretag
 eliminar tag en github: git push origin :refs/tags/v1.0
 
 ver cambios de manera visual : gitk
+clonar repositorio: git clone URL
 
