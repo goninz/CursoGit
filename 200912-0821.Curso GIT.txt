@@ -58,4 +58,14 @@ eliminar tag en github: git push origin :refs/tags/v1.0
 
 ver cambios de manera visual : gitk
 clonar repositorio: git clone URL
+guardar cambios temporal: git stash
+traer los cambios temporales: git stash pop
+ver cambios temporales: git stash list
+pasar cambios temporales a otra rama: git stash branch nombrerama
+borrar cambios temporales: git stash drop
+
+eliminar cambios: git clean -f
+
+
+
 
