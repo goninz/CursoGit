@@ -66,7 +66,7 @@ pasar cambios temporales a otra rama: git stash branch nombrerama
 borrar cambios temporales: git stash drop
 
 eliminar cambios: git clean -f
-
+trear solo algunos commit : git cherry-pick codigocommit
 
 
 
