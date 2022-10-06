@@ -33,6 +33,8 @@ revisar donde se guardan configuraciones: git config --list --show-origin
 cambiar nombre de usuario para todos : git config --global user.name "jgonzalez"
 cambiar correo de usuario para todos : git config --global user.email "jonathan.gonzalez@hdi.cl"
 saber las ramas que tenemos : git branch
+saber ramas remotas :git branch -r
+todas las ramas: git branch -a
 mostrar lo que se modifico commit actual con el anterior: git show
 ver diferencias entre commit : git diff codigocommit codigootrocommit
 resetear hasta una versión anterior perdiendo todo: git reset codigocommit --hard
@@ -73,6 +75,9 @@ resetar commit : git reset codigohead
 resetear hard : git reset --hard codigocommit
 buscar cambios  : git grep -n palabra	
 buscar en los commit: git log -S "palabra"
+ver la cantidad de commit que ha realizado cada colaborador: git shortlog -sn
+crear alias de comando : git config --global alias.nombrealias "comando"
+ver que cambios hicieron : git blame -C nombrearchivo
 
 
 

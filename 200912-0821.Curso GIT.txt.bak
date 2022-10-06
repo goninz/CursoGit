@@ -71,7 +71,11 @@ pisar commit : git commit -amend
 ver log para resetear cambios: git reflog
 resetar commit : git reset codigohead
 resetear hard : git reset --hard codigocommit
-buscar cambios en los commit : git grep -n palabra	
+buscar cambios  : git grep -n palabra	
+buscar en los commit: git log -S "palabra"
+ver la cantidad de commit que ha realizado cada colaborador: git shortlog -sn
+crear alias de comando : git config --global alias.nombrealias "comando"
+
 
 
 
