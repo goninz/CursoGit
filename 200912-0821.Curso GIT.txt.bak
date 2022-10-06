@@ -69,7 +69,10 @@ eliminar cambios: git clean -f
 trear solo algunos commit : git cherry-pick codigocommit
 pisar commit : git commit -amend
 ver log para resetear cambios: git reflog
-resetar commit : git resetear codigohead
+resetar commit : git reset codigohead
+resetear hard : git reset --hard codigocommit
+buscar cambios en los commit : git grep -n palabra	
+
 
 
 

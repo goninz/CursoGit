@@ -71,6 +71,9 @@ pisar commit : git commit -amend
 ver log para resetear cambios: git reflog
 resetar commit : git reset codigohead
 resetear hard : git reset --hard codigocommit
+buscar cambios  : git grep -n palabra	
+buscar en los commit: git log -S "palabra"
+
 
 
 
